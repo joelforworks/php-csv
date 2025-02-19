@@ -73,3 +73,8 @@ Se podría abstraer más el proceso para abarcar cualquier tipo de **CSV** de ma
 ├ 📄 script.php
 ```
 
+-------
+La clase  **CsvParser** sirve para obtener la informacion del csv.
+La clase  **Nave** se encarga de hacer la queries a la base de datos.
+
+
