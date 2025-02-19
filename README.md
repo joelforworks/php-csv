@@ -56,17 +56,17 @@ Se podría abstraer más el proceso para abarcar cualquier tipo de **CSV** de ma
 
 
 ```plaintext
-📂 assets 
+📂 assets  // Carpeta para guardar el csv.
 ├── 📄 naves.csv
-📂 db
+📂 db // Carpeta donde se guarda la base de datos y objetos para interactuar con ella.
 ├── 📂 entities
 ├── 📄 database.sqlite
-📂 public
+📂 public // Carpeta donde guardo los css,html y js.
 ├── 📂 css
 ├── 📂 html
 ├── 📂 js
 │ 
-📂 utils
+📂 utils // Carperta donde estan las clases de ayuda.
 ├── 📄 CsvParser.php
 ├ 📄 index.php
 ├ 📄 README.md
