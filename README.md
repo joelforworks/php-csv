@@ -56,17 +56,17 @@ Se podría abstraer más el proceso para abarcar cualquier tipo de **CSV** de ma
 
 
 ```plaintext
-📂 assets  // Carpeta para guardar el csv.
+📂 assets  // Carpeta para guardar el CSV.
 ├── 📄 naves.csv
 📂 db // Carpeta donde se guarda la base de datos y objetos para interactuar con ella.
 ├── 📂 entities
 ├── 📄 database.sqlite
-📂 public // Carpeta donde guardo los css,html y js.
+📂 public // Carpeta donde guardo los CSS, HTML y JS.
 ├── 📂 css
 ├── 📂 html
 ├── 📂 js
 │ 
-📂 utils // Carperta donde estan las clases de ayuda.
+📂 utils // Carpeta donde están las clases de ayuda.
 ├── 📄 CsvParser.php
 ├ 📄 index.php
 ├ 📄 README.md
@@ -74,7 +74,7 @@ Se podría abstraer más el proceso para abarcar cualquier tipo de **CSV** de ma
 ```
 
 -------
-La clase  **CsvParser** sirve para obtener la informacion del csv.
-La clase  **Nave** se encarga de hacer la queries a la base de datos.
+La clase **CsvParser** sirve para obtener la información del CSV.
+La clase  **Nave** se encarga de hacer las queries a la base de datos.
 
 
