@@ -23,7 +23,7 @@ En mi caso, he configurado un **Virtual Host** para que `http://projects:8888` a
 </VirtualHost>
 ```
 
-# Configuración de Hosts para Redirección a MAMP  
+### Configuración de Hosts para Redirección a MAMP  
 
 Para redirigir al servidor **MAMP** cuando accedamos desde el navegador a `http://projects:8888`, agrega la siguiente línea en el archivo **hosts** de tu sistema:  
 
@@ -33,7 +33,7 @@ Para redirigir al servidor **MAMP** cuando accedamos desde el navegador a `http:
 
 Tambien bastaria con clonar el projecto en la carpeta de www de cualquir entorno LAMP,MAMP,XAMP...
 
-### SCRIP INICIAL
+## SCRIP INICIAL
 
 Despues de haber configurado el server ejecutapos el script para levantar la base datos y las tablas:
 
@@ -41,7 +41,16 @@ Despues de haber configurado el server ejecutapos el script para levantar la bas
 php script.php
 ```
 
+Si no se desea configurar un servidor basta con ejecutar este comando:
+
+```plaintext
+php -S localhost:9999 -t ./ 
+```
+
+
+-----------
 Estoy realizando un parseo del **CSV**, teniendo en cuenta que no es muy óptimo (guardo todo el texto en una variable porque solo es para este caso).
 
 Se podría abstraer más el proceso para abarcar cualquier tipo de **CSV** de manera más eficiente.
+-----------
 
