@@ -52,3 +52,24 @@ php -S localhost:9999 -t ./
 Estoy realizando un parseo del **CSV**, teniendo en cuenta que no es muy óptimo (guardo todo el texto en una variable porque solo es para este caso).
 Se podría abstraer más el proceso para abarcar cualquier tipo de **CSV** de manera más eficiente.
 
+### Estructura del projecto 
+
+
+```plaintext
+📂 assets 
+├── 📄 naves.csv
+📂 db
+├── 📂 entities
+├── 📄 database.sqlite
+📂 public
+├── 📂 css
+├── 📂 html
+├── 📂 js
+│ 
+📂 utils
+├── 📄 CsvParser.php
+├ 📄 index.php
+├ 📄 README.md
+├ 📄 script.php
+```
+

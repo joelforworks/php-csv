@@ -6,6 +6,15 @@ $model =  new Nave();
 $data = $model->getAll() ?? [];
 
 
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $id = $_POST['id'] ?? null;
+    if ($id) {
+        $model->deleteById($id);
+        header("Location: " . $_SERVER['PHP_SELF']); // Redirect to refresh the page
+        exit;
+    }
+}
+
 
 ?>
 <!DOCTYPE html>
@@ -46,7 +55,7 @@ $data = $model->getAll() ?? [];
     <form class="showForm" action="public/html/page.php" method="POST" >
         <input type="text" name="id">
     </form>
-    <form class="deleteForm" action="#" method="DELETE" >
+    <form class="deleteForm" action="?" method="POST" >
         <input type="text" name="id">
     </form>
     
